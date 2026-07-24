@@ -1,32 +1,33 @@
-window.onload = function(){
+// Welcome Message
 
-alert("Welcome to Cloud-Based Student Management System");
+window.onload = function () {
+
+    alert("Welcome to Cloud-Based Student Management System");
 
 };
 
 
-// Future Functions
+// Dashboard Functions
 
-function addStudent(){
-
-alert("Student Added Successfully");
-
+function addStudent() {
+    alert("Student Added Successfully");
 }
 
-function markAttendance(){
-
-alert("Attendance Updated");
-
+function updateAttendance() {
+    alert("Attendance Updated Successfully");
 }
 
-function addMarks(){
-
-alert("Marks Added Successfully");
-
+function uploadMarks() {
+    alert("Marks Uploaded Successfully");
 }
 
-function generateReport(){
-
-alert("Report Generated");
-
+function cloudBackup() {
+    alert("AWS Cloud Backup Completed");
 }
+
+
+// Display Current Date
+
+let today = new Date();
+
+console.log("Today's Date : " + today.toDateString());
